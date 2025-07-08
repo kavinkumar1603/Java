@@ -1,19 +1,29 @@
-import java.util.Scanner;
-class day2{
-    public static void main(String[] args)
-    {
+import java.util.*;
+
+class day2 {
+    public static void main(String[] args) {
         Scanner kavin = new Scanner(System.in);
-        System.out.print("Enter a name :");
-        String name = kavin.nextLine();
+
         System.out.print("Enter age :");
         int age = kavin.nextInt();
+
         kavin.nextLine();
-        System.out.print("Enter address :");
-        String add = kavin.nextLine();
-        System.out.println("My name is "+name);
-        System.out.println("My age is "+age);
-        System.out.print("My Address is "+add);
-       
+
+        System.out.print("Enter a name :");
+        String name = kavin.nextLine();
+
+        System.out.print("Enter percentage :");
+        Float add = kavin.nextFloat();
+
+        System.out.print("Enter true / false :");
+        boolean val = kavin.nextBoolean();
+
+        System.out.println("My name is " + name);
+        System.out.println("My age is " + age);
+        System.out.println("My Percentage is " + add);
+        System.out.print("The boolean value is :" + val);
+
+        kavin.close(); 
         // Scanner kavin=new Scanner(System.in);
         // int a=kavin.nextInt();
         // int b=kavin.nextInt();
@@ -24,7 +34,6 @@ class day2{
         // System.out.print("The added value "+e);
         // System.out.print("\nThe Value divide (d/e)");
         // System.out.print(d/e);
-
 
         // Scanner kavin=new Scanner(System.in);
         // System.out.print("Enter Your Name: ");
@@ -37,12 +46,11 @@ class day2{
         // System.out.print("\nEnter the Dept name :");
         // String dept=kavin.nextLine();
 
-       // double Cal=(score/100.0)*10;
+        // double Cal=(score/100.0)*10;
 
-        //System.out.print("\nThe Converted Score is :");
-        //System.out.printf("\nThe Score out of 10 :%.2f\n",Cal);
-        //System.out.print("The Score out of 10 is :"+score/10);
-
+        // System.out.print("\nThe Converted Score is :");
+        // System.out.printf("\nThe Score out of 10 :%.2f\n",Cal);
+        // System.out.print("The Score out of 10 is :"+score/10);
 
     }
 }
