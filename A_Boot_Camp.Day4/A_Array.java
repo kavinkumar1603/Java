@@ -8,7 +8,7 @@
  * @since 09-07-2025
  * @version 1.0
  */
-package A_Boot_Camp.Day4;
+// package A_Boot_Camp.Day4;
 
 public class A_Array {
     public static void main (String[] args) {
