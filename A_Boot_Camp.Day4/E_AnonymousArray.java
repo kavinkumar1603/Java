@@ -10,7 +10,7 @@
  * @since 09-07-2025
  * @version 1.0
  * */
-package A_Boot_Camp.Day4;
+// package A_Boot_Camp.Day4;
 
 class E_AnonymousArray {
 	public static void main(String[] args)
@@ -20,7 +20,8 @@ class E_AnonymousArray {
 		sum(new int[]{ 1, 2, 3 });
 	}
 
-	static void sum(int[] a)
+	static void sum(int[] a)//since it is declared as static there is no need of a OBJECT declaration
+	
 	{
 		int total = 0;
 
