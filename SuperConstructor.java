@@ -32,7 +32,7 @@ class Child3 extends Parent3 {
       // constructor overriding
       // super();  // Explicitly call superclass constructor - Polymorphism
       System.out.println("Hi I am Child class constructor.");
-      // super();
+      super();
     }
 
     void print() {
